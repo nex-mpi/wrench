@@ -24,4 +24,7 @@
   const rads = [[0.16450104117393497,0.0591724768280983,0.22201912850141525]];
   const focal  = 132.64979173341877;
 
-
+  const max_viewing_right =  0.1;
+  const max_viewing_left =  -0.08;
+  const max_viewing_down = -0.03;
+  const max_viewing_up = 0.01;

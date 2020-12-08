@@ -18,10 +18,14 @@
 
   const offset = 300;
   const maxcol = 9;
-  const version = "learned_basis8";
+  const version = "basis8_b_png";
   const extrinsics = [[0.9980015158653259,-0.010934674181044102,0.06223704665899277,0.0,0.006879583932459354,0.9978615045547485,0.06500086933374405,0.0,-0.06281471252441406,-0.06444279849529266,0.9959424734115601,0.0,0.1406853199005127,-0.06471338868141174,-0.014521932229399681,1.0]];
 
   const rads = [[0.9299,0.7199,0.7632]];
   const focal  = 31.55247313466961;
 
 
+  const max_viewing_right =  0.1;
+  const max_viewing_left =  -0.08;
+  const max_viewing_down = -0.03;
+  const max_viewing_up = 0.01;
